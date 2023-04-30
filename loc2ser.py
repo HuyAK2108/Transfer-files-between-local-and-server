@@ -19,15 +19,15 @@ def main(opt):
     
     print(f"🔥Copying from {src} to {des}🔥")
     
-    # if opt.recursive:
-    #     cmd = f"cp -r {src} {des}"
-    #     print(cmd)
-    #     os.system(cmd)
+    if opt.recursive:
+        cmd = f"cp -r {src} {des}"
+        print(cmd)
+        os.system(cmd)
         
-    # else:
-    #     cmd = f"cp {src} {des}"
-    #     print(cmd)
-    #     os.system(cmd)
+    else:
+        cmd = f"cp {src} {des}"
+        print(cmd)
+        os.system(cmd)
     
     print("\nDone!（づ￣3￣）づ╭❤️～")
     
